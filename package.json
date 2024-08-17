@@ -9,7 +9,11 @@
     "prepare": "husky install",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
-    "build:types": "tsc"
+    "build:types": "tsc",
+    "serve:app-auth": "cd app-auth && npm run serve:single-spa:app-auth",
+    "serve:app-cart": "cd app-cart && npm run serve:single-spa:app-cart",
+    "serve:app-checkout": "cd app-checkout && npm run serve:single-spa:app-checkout",
+    "serve:app-products": "cd app-products && npm run serve:single-spa:app-products"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
