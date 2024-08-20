@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-cart',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
